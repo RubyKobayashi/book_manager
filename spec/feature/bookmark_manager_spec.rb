@@ -1,3 +1,6 @@
-#As a user
-# So I can see which bookmarks I have
-# I would like to see a list of bookmarks
+feature 'Seeing a list of bookmarks' do
+  scenario 'visiting the homepage ' do
+    visit('/')
+    expect(page).to have_content "Bookmark Manager"
+  end
+end

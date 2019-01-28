@@ -1,0 +1,31 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/app.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/spec/bookmark_manager_spec.rb": [
+        null
+      ],
+      "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/spec/feature/bookmark_manager_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1548691050
+  }
+}

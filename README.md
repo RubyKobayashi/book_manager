@@ -5,4 +5,4 @@
 
 
 
-![alt text](Screen Shot.png "Bookmark Manager Flow Diagram")
+![alt text](/Screen Shot.png "Bookmark Manager Flow Diagram")
