@@ -1,0 +1,1 @@
+require 'bookmark_manager'
