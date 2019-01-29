@@ -6,8 +6,6 @@
         null,
         1,
         1,
-        1,
-        1,
         null,
         null,
         1,
@@ -16,6 +14,24 @@
         null,
         null,
         1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/lib/bookmark.rb": [
+        null,
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        8,
+        null,
         null
       ],
       "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/spec/bookmark_spec.rb": [
@@ -29,19 +45,6 @@
         1,
         1,
         1,
-        null,
-        null,
-        null
-      ],
-      "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/lib/bookmark.rb": [
-        null,
-        null,
-        1,
-        1,
-        2,
-        null,
-        null,
-        null,
         null,
         null,
         null
@@ -72,6 +75,6 @@
         null
       ]
     },
-    "timestamp": 1548695390
+    "timestamp": 1548773645
   }
 }
