@@ -34,6 +34,8 @@
         null
       ],
       "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/lib/bookmark.rb": [
+        null,
+        null,
         1,
         1,
         2,
@@ -45,8 +47,6 @@
         null
       ],
       "/Users/rubykobayashi/Projects/Makers_wk4/bookmark_manager/spec/feature/bookmark_manager_spec.rb": [
-        null,
-        null,
         null,
         null,
         null,
@@ -72,6 +72,6 @@
         null
       ]
     },
-    "timestamp": 1548694120
+    "timestamp": 1548695390
   }
 }
