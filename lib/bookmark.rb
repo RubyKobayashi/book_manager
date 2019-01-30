@@ -18,4 +18,13 @@ class Bookmark
 end
   # 2 F p "all has been called"
   # 5 G p Bookmark.all
+
+  def self.create(url:)
+    connection = if ENV['ENVIRONMENT'] == 'test'
+                   PG.connect(dbname: 'bookmark_manager_test')
+                 else
+                   PG.connect(dbname: 'bookmark_manager')
+                 end
+    connection.exec("INSERT INTO bookmarks(url) VALUES('#{url}')")
+  end
 end
