@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+require_relative './setup_test_database'
+
+ENV['ENVIRONMENT'] = 'test'
+
 require 'capybara/rspec'
 require 'simplecov'
 require 'simplecov-console'
@@ -12,9 +16,6 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
                                                                  SimpleCov::Formatter::HTMLFormatter
                                                                ])
 SimpleCov.start
-
-ENV['RACK_ENV'] = 'test'
-ENV['ENVIRONMENT'] = 'test'
 
 RSpec.configure do |config|
   config.before(:each) do
