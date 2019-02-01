@@ -11,7 +11,6 @@ feature 'Adding bookmarks' do
     fill_in('title', with: 'Github')
     fill_in('url', with: 'https://www.github.com')
     click_button('Submit')
-    p Bookmark.all
     expect(page).to have_link('Github', href: 'https://www.github.com')
   end
 end
