@@ -1,6 +1,5 @@
 require 'pg'
 # frozen_string_literal: true
-
 class Bookmark
   attr_reader :id, :title, :url
 
